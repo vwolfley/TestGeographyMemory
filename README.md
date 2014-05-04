@@ -6,18 +6,18 @@
 
 Test my geography memory
 
-A portal that shows my repositories I've created on GitHub
+A memory game for geography.  Test your knowledge of the United States and the location of the 50 states.  Test your knowledge of Arizona and its 15 counties.
 
-### Version
+#### Version
 
-### `0.1.0 - 05/03/2014`
+#### `0.1.0 - 05/03/2014`
 
 ### Keywords
 
 `Memory` `Geography` `States` `Counties` `Maps` `ESRI`
 
 ### Site URL's
-* [Site] (http://vwolfley.github.io/)
+* [Site] (http://vwolfley.github.io/TestGeographyMemory/)
 
 ### Documentation
 
