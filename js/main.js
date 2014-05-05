@@ -18,7 +18,7 @@ function init() {
     map = new esri.Map("mapDiv", {
         center: [-95.625, 39.243],
         zoom: 4,
-        basemap: "gray"
+        basemap: "national-geographic"
     });
     //"satellite", "hybrid", "topo", "gray", "oceans", "osm", "national-geographic"
     
