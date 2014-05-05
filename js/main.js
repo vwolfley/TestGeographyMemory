@@ -1,9 +1,10 @@
-var endpoint =
-    "http://sampleserver6.arcgisonline.com/arcgis/rest/services/USA/MapServer/2";
+var endpoint = "http://sampleserver6.arcgisonline.com/arcgis/rest/services/USA/MapServer/2";
+
 dojo.require("esri.map");
 dojo.require("esri.layers.FeatureLayer");
 dojo.require("esri.tasks.query");
 dojo.require("esri.dijit.Popup");
+
 var queryTaskQuestions, queryQuestions, statelist = [],
     starting = true;
 var lookforattribute = "state_name",
@@ -17,8 +18,10 @@ function init() {
     map = new esri.Map("mapDiv", {
         center: [-95.625, 39.243],
         zoom: 4,
-        basemap: "satellite"
+        basemap: "gray"
     });
+    //"satellite", "hybrid", "topo", "gray", "oceans", "osm", "national-geographic"
+    
     dojo.connect(map, "onMouseMove", function (evt) {
         //get mapPoint from event and display the mouse coordinates
         map.infoWindow.hide();
