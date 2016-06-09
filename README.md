@@ -20,7 +20,7 @@ A memory game for geography.  Test your knowledge of the United States and the l
 
 ## Version
 
-    #### version 0.1.0 ####
+#### version 0.1.0 ####
 
     `Updated: 06/03/2016`
 
