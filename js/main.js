@@ -18,10 +18,10 @@ function init() {
     map = new esri.Map("mapDiv", {
         center: [-95.625, 39.243],
         zoom: 4,
-        basemap: "gray"
+        basemap: "satellite"
     });
     // "satellite", "hybrid", "topo", "gray", "oceans", "osm", "national-geographic"
-    
+
     dojo.connect(map, "onMouseMove", function (evt) {
         //get mapPoint from event and display the mouse coordinates
         map.infoWindow.hide();

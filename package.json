@@ -1,22 +1,35 @@
 {
   "name": "TestGeographyMemory",
   "version": "0.1.0",
-  "author": "Vern Wolfley",
-  "twitter": "@vernwolfley",
-  "url": "http://vwolfley.github.io/TestGeographyMemory/",
+  "date": "06/08/2016",
+  "description": "",
+  "keywords": ["Arizona", "geography", "maps", "ESRI", "memory"],
+  "main": "index.js",
+  "homepage": "http://vwolfley.github.io/TestGeographyMemory/",
+  "author": "Vern Wolfley <@vernwolfley>",
+  "contributors": [{
+    "name": "Vern Wolfley",
+    "email": "vwolfley@azmag.gov"
+  }],
   "private": true,
+  "dependencies": {
 
+  },
   "devDependencies": {
-    "grunt":                "~0.4.4",
-    "grunt-contrib-cssmin":     "*",
-    "grunt-contrib-csslint":    "*",
-    "grunt-cssc":               "*",
-    "grunt-contrib-jshint":     "*",
-    "grunt-contrib-uglify":     "*",
-    "grunt-contrib-watch":      "*",
-    "grunt-htmlhint":           "*",
-    "matchdep":                 "*",
-    "jshint-stylish-ex":        "*",
-    "grunt-contrib-concat":     "*"
-  }
+    "grunt": "0.4.5",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-csslint": "*",
+    "grunt-cssc": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-htmlhint": "*",
+    "grunt-text-replace": "*",
+    "matchdep": "*",
+    "lodash": "*",
+    "jshint-stylish-ex": "*",
+    "normalize.css": "*"
+  },
+  "license": "MIT"
 }
