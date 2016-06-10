@@ -20,9 +20,10 @@
 
 # SITE
     Site Name: Test My Geography Memory
-    Site URL: http:///
+    Site URL: http://vwolfley.github.io/TestGeographyMemory/
     Version: 0.1.0
     Last updated: 05/03/2014
+    Created: 05/03/2014
     Language: English
     Doctype: HTML5
     IDE: Sublime Text
